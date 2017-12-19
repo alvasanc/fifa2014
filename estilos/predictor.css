@@ -1,0 +1,92 @@
+*{margin:0px; padding:0px}
+
+body{
+	background-image:url('imagenes/fondonegro.jpg');
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+#mainwrapper{
+	width:940px;
+	height:6500px;
+	background-color:white;
+	margin:auto;
+}
+
+#cabezal{
+	background-image:url('imagenes/cabezalpredictor.jpg');
+	height:275;
+}
+
+#cuerpo{
+	background:white;
+	//height:275;	
+}
+
+#titprediccion{	
+	background:#b71929;	
+	border-top: 20px solid white;
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+	padding:10;
+	height:40;	
+	position:relative;
+}
+
+#datosprediccion{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size:20;
+	color: white;
+}
+
+#banderasprediccion{
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	font-size:20;
+	color: #009999;
+}
+
+#contprediccion{
+	background:#DFDFDF;
+	//height:150;	
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+	padding: 20px;
+}
+
+.prediccion{
+	color: black;
+	font-weight:bold;
+	font-size: 25px
+}
+
+#pieprediccion{	
+	background:black;		
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+	border-bottom: 20px solid white;
+	padding:10;
+	height:30;	
+	position: relative
+}
+
+#iconoprediccion{
+	position: absolute;
+	top: 5px;
+	left: 20px;		
+}
+
+#guruprediccion{
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	font-size:15;
+	color: white;
+}
+
+#resultadoprediccion{
+	position: absolute;
+	top: 15px;
+	right: 20px;		
+}

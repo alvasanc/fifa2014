@@ -1,0 +1,64 @@
+.plantel { 
+	background-image: url(sprite_50.jpg); 
+        width: 80px; 
+        height: 80px; 
+} 
+/*es importante escribir los nombres sin espacios .plantel .uno no funciona*/
+.plantel.uno {background-position: -1px -1px;} 
+.plantel.dos {background-position: -80px -1px;}
+.plantel.tres {background-position: -160px -1px;}		
+.plantel.cuatro {background-position: -240px -1px;}		
+.plantel.cinco {background-position: -320px -1px;}		
+.plantel.seis {background-position: -1px -80px;} 
+.plantel.siete {background-position: -80px -80px;} 		
+.plantel.ocho {background-position: -160px -80px;} 		
+.plantel.nueve {background-position: -240px -80px;}
+.plantel.diez {background-position: -320px -80px;}
+.plantel.once {background-position: -1px -160px;} 
+.plantel.doce {background-position: -80px -160px;} 
+.plantel.trece {background-position: -160px -160px;} 
+.plantel.catorce {background-position: -240px -160px;}
+.plantel.quince {background-position: -320px -160px;} 
+.plantel.diesciseis {background-position: -1px -240px;}
+.plantel.diecisiete {background-position: -80px -240px;}
+.plantel.dieciocho {background-position: -160px -240px;}
+.plantel.diecinueve {background-position: -240px -240px;}
+.plantel.veinte {background-position: -320px -240px;}
+.plantel.veintiuno {background-position: -1px -320px;}
+.plantel.veintidos {background-position: -80px -320px;}
+.plantel.veintitres {background-position: -160px -320px;} 
+.plantel.veinticuatro {background-position: -240px -320px;} 
+.plantel.veinticinco {background-position: -320px -320px;} 
+      
+#plantilla{
+//font-family: verdana;
+	width:440;
+	padding:5px;
+	float:left;			
+}
+/* -------------- cabezal--------------*/
+#puestocabezal{
+	padding:5;
+	background-color:#00b9d1;
+	color: white;			
+	clear:both;
+}
+/* -------------- cada jugador--------------*/
+#contenedorjugador{
+	margin:10;			
+	width:45%;
+	float: left;
+}		
+#jugador{
+	display:table;
+	height: 80px;			
+	clear: left			
+}		
+.camisetanumero{
+	color: grey;
+	font-size: 15;
+	font-weight:bold;			
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:5px;
+}

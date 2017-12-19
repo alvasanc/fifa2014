@@ -1,0 +1,63 @@
+	.plantel { 
+		background-image: url(argentina.jpg); 
+        width: 83px; 
+        height: 86px; 
+    } 
+        /*es importante escribir los nombres sin espacios .plantel .uno no funciona*/
+        .plantel.uno {background-position: -1px -1px;} 
+		.plantel.dos {background-position: -82px -0px;}
+		.plantel.tres {background-position: -1px -200px;}		
+		.plantel.cuatro {background-position: -249px -0px;}		
+		.plantel.cinco {background-position: -332px -0px;}		
+      	        .plantel.seis {background-position: -1px -80px;} 
+		.plantel.siete {background-position: -1px -100px;} 		
+		.plantel.ocho {background-position: -160px -80px;} 		
+		.plantel.nueve {background-position: -165px -100px;} 
+		.plantel.diez {background-position: -250px -100px;}
+		.plantel.once {background-position: -332px -100px;}		
+		.plantel.doce {background-position: -415px -100px;} 
+		.plantel.trece {background-position: -160px -160px;} 
+		.plantel.catorce {background-position: -85px -200px;} 
+		.plantel.diesciseis {background-position: -165px -0px;}
+		.plantel.diecisiete {background-position: -85px -100px;}
+		.plantel.dieciocho {background-position: -415px -200px;}
+		.plantel.diecinueve {background-position: -165px -200px;}
+		.plantel.veinte {background-position: -250px -200px;}
+		.plantel.veintiuno {background-position: -165px -300px;}
+		.plantel.veintidos {background-position: -250px -300px;}  
+		.plantel.veintitres {background-position: -332px -300px;} 
+		.plantel.veinticuatro {background-position: -415px -300px;} 
+		
+        
+		#plantilla{
+			//font-family: verdana;
+			width:440;
+			padding:5px;
+			float:left;			
+		}
+		/* -------------- cabezal--------------*/
+		#puestocabezal{
+			padding:5;
+			background-color:#00b9d1;
+			color: white;			
+			clear:both;
+		}
+		/* -------------- cada jugador--------------*/
+		#contenedorjugador{
+			margin:10;			
+			width:45%;
+			float: left;
+		}		
+		#jugador{
+			display:table;
+			height: 86px;			
+			clear: left			
+		}		
+		.camisetanumero{
+			color: grey;
+			font-size: 15;
+			font-weight:bold;			
+			display:table-cell;
+			vertical-align:middle;
+			padding-left:5px;
+		}

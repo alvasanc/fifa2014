@@ -1,0 +1,101 @@
+/*----------------------estadios------------------*/
+#contestadios{
+	width:940;
+	height:200;
+	margin-left:5;
+	margin-top:10;
+}
+#fotoestadio{
+	width:155;
+	height:200;
+	float:left;
+	text-align:center;
+	font-size:20;
+	color:#555;
+}
+#ciudad{
+	width:155;
+	height:30;
+	
+}
+#fotoest{
+	width:155;
+	height:140;
+}
+#nomest{
+	width:155;
+	height:30;
+}
+#imgestadio{
+	width:155;
+	height:137
+}
+/*--------------------sedes--------------------------*/
+#contsedes{
+	width:940;
+	height:5400
+}
+#sedesizq{
+	width:50%;
+	height:5400;
+	float:left;
+}
+#sedesder{
+	width:50%;
+	height:5400;
+	float:right;
+}
+.sedes{
+	width:470;
+	height:900;	
+	border:1px solid grey;
+}
+#titsede{
+	text-align:center;
+	font-size:40;
+	margin-top:20;
+}
+#fotosede{
+	width:155;
+	height:140;
+	margin-top:20;
+	margin-left:160
+	
+}
+#comentsede{
+	font-weight:bold;
+	margin-top:20;
+	padding:5px;
+	height:120
+}
+#contabla{
+	widht:468;
+	margin-top:20;
+	padding:2px
+}
+#tablasedes{
+	widht:468;
+	height:300;
+	margin-top:20
+}
+.partidossede{
+	font-size:20px;
+	font-weigth:bold;
+	text-align:center;
+	display:block;
+	margin-top:20	
+}
+#tablapartidos{
+	width:468;
+	font-size:20
+}
+#tpfechahora{
+	font-size:15
+}
+.irarriba{
+	/*background-image:url('imagenes/irarriba.png');
+	background-repeat:no-repeat;
+	background-position: center;*/
+	background: url('imagenes/irarriba.png') no-repeat center;
+	height: 50px;
+}

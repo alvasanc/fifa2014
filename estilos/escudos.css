@@ -1,0 +1,166 @@
+/* ----------------------- escudos----------------------------*/
+li.escudos{
+	float: left;
+	height: 39px; 
+	width: 39px;
+	margin: 0;
+}
+
+li.escudos a img{
+	height: 39px;
+	width: 39px
+}
+
+li.escudos a img.alemania{
+	content: url('../imagenes/escudos/alemania.jpg');	
+	width: 25px;
+	
+}
+
+li.escudos a img.argelia{
+	content:url('../imagenes/escudos/argelia.jpg');
+	height: 36px;
+}
+
+li.escudos a img.argentina{
+	content:url('../imagenes/escudos/argentina.jpg');
+}
+
+li.escudos a img.australia{
+	content:url('../imagenes/escudos/australia.jpg');	
+	width: 30px
+}
+
+li.escudos a img.belgica{
+	content:url('../imagenes/escudos/belgica.jpg');	 
+	width: 31px
+}
+
+li.escudos a img.bosnia{
+	content:url('../imagenes/escudos/bosnia.jpg');
+	padding:0 0 0 0;    
+}
+
+li.escudos a img.brasil{
+	content:url('../imagenes/escudos/brasil.jpg');	
+    width: 30px
+}
+
+li.escudos a img.camerun{
+	content:url('../imagenes/escudos/camerun.jpg');
+}
+
+li.escudos a img.chile{
+	content:url('../imagenes/escudos/chile.jpg');
+}
+
+li.escudos a img.colombia{
+	content:url('../imagenes/escudos/colombia.jpg');
+}
+
+li.escudos a img.corea{
+	content:url('../imagenes/escudos/corea.jpg');
+    width: 31px
+}
+
+li.escudos a img.costa_de_marfil{
+	content:url('../imagenes/escudos/costa_de_marfil.jpg');
+}
+
+li.escudos a img.costa_rica{
+	content:url('../imagenes/escudos/costa_rica.jpg');
+    height: 35px;
+}
+
+li.escudos a img.croacia{
+	content:url('../imagenes/escudos/croacia.jpg');
+    width: 30px 
+}
+
+li.escudos a img.ecuador{
+	content:url('../imagenes/escudos/ecuador.jpg');
+}
+
+li.escudos a img.espania{
+	content:url('../imagenes/escudos/espania.jpg');
+    width: 30px
+}
+
+li.escudos a img.francia{
+	content:url('../imagenes/escudos/francia.jpg');
+    width: 31px
+}
+
+li.escudos a img.ghana{
+	content:url('../imagenes/escudos/ghana.jpg');
+    width: 29px
+}
+
+li.escudos a img.grecia{
+	content:url('../imagenes/escudos/grecia.jpg');          
+}
+
+li.escudos a img.holanda{
+	content:url('../imagenes/escudos/holanda.jpg');
+    padding:10 0 0 0;
+    height: 25px;
+}
+
+li.escudos a img.honduras{   
+	content:url('../imagenes/escudos/honduras.jpg');
+    width: 38px
+}
+
+li.escudos a img.inglaterra{   
+	content:url('../imagenes/escudos/inglaterra.jpg');
+    width: 35px
+}
+
+li.escudos a img.iran{   
+	content:url('../imagenes/escudos/iran.jpg');
+    width: 24px
+}
+
+li.escudos a img.italia{   
+	content:url('../imagenes/escudos/italia.jpg');
+    width: 28px
+}
+
+li.escudos a img.japon{   
+	content:url('../imagenes/escudos/japon.jpg');         
+}
+
+li.escudos a img.mexico{   
+	content:url('../imagenes/escudos/mexico.jpg');         
+}
+
+li.escudos a img.nigeria{   
+	content:url('../imagenes/escudos/nigeria.jpg');
+    width: 38px
+}
+
+li.escudos a img.portugal{   
+	content:url('../imagenes/escudos/portugal.jpg');
+    width: 29px
+}
+
+li.escudos a img.rusia{   
+	content:url('../imagenes/escudos/rusia.jpg');
+}
+
+li.escudos a img.suiza{   
+	content:url('../imagenes/escudos/suiza.jpg');
+    padding:8 0 0 0;
+    height: 30px;         
+}
+
+li.escudos a img.uruguay{   
+	content:url('../imagenes/escudos/uruguay.jpg');
+    width: 33px
+}
+
+li.escudos a img.usa{   
+	content:url('../imagenes/escudos/usa.jpg');
+    width: 33px;
+	height:39px
+}

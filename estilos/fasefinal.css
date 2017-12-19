@@ -1,0 +1,56 @@
+#contenedor{						
+			width:470px
+		}
+		#partido_izquierda{
+			background-color:#404040;
+			width:48%;			
+			float:left;
+		}
+		#separador{
+			background-color:#363636;
+			width:4%;
+			height:97;			
+			float: left;
+		}
+		#clasificado_derecha{
+			background-color:#404040;
+			width:48%;			
+			float: left;
+			padding-top:2
+		}		
+		#i{		
+			background-color:#363636;
+			width:90%;
+			height:31;
+			font-size:15;
+			padding-top:2;			
+			float:left;
+		}
+		#d{	
+			background-color:#363636;		
+			width:10%;
+			height:31;
+			float:left;
+			font-size:27;
+			text-align:center;	
+			padding-top:2;			
+		}		
+		#blanco{
+			height:31;			
+			width:100%;
+			clear:both
+		}		
+		.seleccion{
+			color:#cccccc;
+			padding-left:10;
+			font-family: verdana
+		}		
+		.resultado{
+			color:#d6c65e;			
+			font-family: verdana;			
+		}
+		
+		.bandera{
+			background-color:#404040;
+			padding-left:2px;
+		}

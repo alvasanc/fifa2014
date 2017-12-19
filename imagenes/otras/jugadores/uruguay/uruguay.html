@@ -1,0 +1,139 @@
+<html>
+<head>
+	<style>
+		.plantel { 
+            background-image: url(sprite_50.jpg); 
+            width: 80px; 
+            height: 80px; 
+        } 
+        /*es importante escribir los nombres sin espacios .plantel .uno no funciona*/
+        .plantel.uno {background-position: -1px -1px;} 
+		.plantel.dos {background-position: -80px -1px;}
+		.plantel.tres {background-position: -160px -1px;}		
+		.plantel.cuatro {background-position: -240px -1px;}		
+		.plantel.cinco {background-position: -320px -1px;}		
+        .plantel.seis {background-position: -1px -80px;} 
+		.plantel.siete {background-position: -80px -80px;} 		
+		.plantel.nueve {background-position: -240px -80px;} 
+		.plantel.doce {background-position: -80px -160px;} 
+		.plantel.trece {background-position: -160px -160px;} 
+		.plantel.catorce {background-position: -1px -240px;} 
+		.plantel.diesciseis {background-position: -1px -240px;} 
+		.plantel.veintitres {background-position: -160px -320px;} 
+		.plantel.veinticuatro {background-position: -240px -320px;} 
+		.plantel.veinticinco {background-position: -320px -320px;} 
+        
+		#plantilla{
+			font-family: verdana;
+		}
+		/* -------------- cabezal--------------*/
+		#puestocabezal{
+			padding:5;
+			background-color:#00b9d1;
+			color: white;			
+			clear:both;
+		}
+		/* -------------- cada jugador--------------*/
+		#contenedorjugador{
+			margin:10;			
+			width:23%;
+			float: left;
+		}		
+		#jugador{
+			display:table;
+			height: 80px;			
+			clear: left			
+		}		
+		.camisetanumero{
+			color: grey;
+			font-size: 15;
+			font-weight:bold;			
+			display:table-cell;
+			vertical-align:middle;
+			padding-left:5px;
+		}
+	</style>
+</head>
+<body>
+	<div id="plantilla">
+		<div id="puestocabezal">SELECCION URUGUAY - DT</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel veinticinco"/><span class="camisetanumero"></span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel veinticuatro"/><span class="camisetanumero">DT-Oscar W. Tabarez</span>				
+			</div>
+		</div>
+		<div id="puestocabezal">
+			ARQUEROS 
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel uno"/><span class="camisetanumero">1-Fernando Muslera</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel doce"/><span class="camisetanumero">12-Rodrigo Muñoz</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel veintitres"/><span class="camisetanumero">23-Martin Silva</span>				
+			</div>
+		</div>				
+		<div id="puestocabezal">
+			DEFENSAS
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel dos"/><span class="camisetanumero">2-Diego Lugano(C)</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel tres"/><span class="camisetanumero">3-Diego Godin</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel cuatro"/><span class="camisetanumero">4-Jorge Fucile</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel trece"/><span class="camisetanumero">13-Jose Maria Gimenez</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel catorce"/><span class="camisetanumero">14-Maxi Pereira</span>				
+			</div>
+		</div>
+		<div id="puestocabezal">
+			MEDIOCAMPISTAS
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel cinco"/><span class="camisetanumero">5-Jorge Gargano</span>				
+			</div>
+		</div>
+		<div id="puestocabezal">
+			DELANTEROS
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel ocho"/><span class="camisetanumero">8-Abel Hernandez</span>				
+			</div>
+		</div>
+		<div id="contenedorjugador">
+			<div id="jugador">
+				<img class="plantel nueve"/><span class="camisetanumero">9-Luis Suarez</span>				
+			</div>
+		</div>		 				
+	</div>
+</body>
+</html>

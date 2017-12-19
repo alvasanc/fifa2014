@@ -1,0 +1,63 @@
+#selecciones{
+	width:940;
+	height:500
+}
+#contsel{
+	width:940;
+	height:500px;
+}
+#fotsel{
+	height:300px;
+	margin:auto;
+	width:400;
+	text-align:center
+
+}
+#fotesc{
+	height:150px;
+	margin:auto;
+	width:200;
+	text-align:center;
+	padding:5px;
+		
+}
+#parttit{
+	width:240;
+	height:500px;
+	font-size:20px;
+	float:left;
+}
+#partitran{
+	width:240;
+	margin:30 0 30 30;
+	padding:5px
+}
+#lista{
+	width:440;
+	float:left;
+	height:550px;
+	padding:5px;
+	border:1px solid #555
+}
+#titlista{
+	width:440;
+	font-size:30px;
+	border-bottom:1px solid #555;
+	text-align:center;
+	font-weight:bold;
+}
+#titjug{
+	width:440;
+	font-weight:bold;
+	font-size:15px;
+	margin:10 0
+}
+#notsel{
+	width:240;
+	height:500px;
+	float:right;
+	padding:2px
+}
+table{
+	border:0px
+}

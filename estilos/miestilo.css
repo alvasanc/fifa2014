@@ -1,0 +1,278 @@
+body{
+	background-image:url('imagenes/fondonegro.jpg');
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+#mainwrapper{
+	height:1500px;
+	width:940px;
+	background-color:white;
+	margin:auto;
+}
+*/-------------------cabezal------------------------*/
+#cabezal{
+	width:940px;
+	height:180;
+}
+*/--------------------titulo------------------------*/
+#titulo{
+	text-align:center;
+	height:50
+	color: #394071;
+}
+*/------------------divescudos--------------------*/
+#divescudos{
+	padding:10; 
+	height:40;
+	
+}
+
+li.escudos{
+	float: left;
+	height: 39px; 
+	width: 39px;
+	margin: 0;
+}
+
+li.escudos a img{
+	height: 39px;
+	width: 39px
+}
+
+li.escudos a img.alemania{
+	content:url('imagenes/escudos/alemania.jpg');	
+	width: 25px
+}
+li.escudos a img.argelia{
+	content:url('imagenes/escudos/argelia.jpg');
+	height: 36px;
+}
+li.escudos a img.argentina{
+	content:url('imagenes/escudos/argentina.jpg');
+}
+li.escudos a img.australia{
+	content:url('imagenes/escudos/australia.jpg');	
+	width: 30px
+}
+li.escudos a img.belgica{
+	content:url('imagenes/escudos/belgica.jpg');	 
+	width: 31px
+}
+li.escudos a img.bosnia{
+	content:url('imagenes/escudos/bosnia.jpg');
+	padding:10 0 0 0;
+    height: 20px    
+}
+li.escudos a img.brasil{
+	content:url('imagenes/escudos/brasil.jpg');	
+    width: 30px
+}
+li.escudos a img.camerun{
+	content:url('imagenes/escudos/camerun.jpg');
+}
+li.escudos a img.chile{
+	content:url('imagenes/escudos/chile.jpg');
+}
+li.escudos a img.colombia{
+	content:url('imagenes/escudos/colombia.jpg');
+}
+li.escudos a img.corea{
+	content:url('imagenes/escudos/corea.jpg');
+    width: 31px
+}
+li.escudos a img.costa_de_marfil{
+	content:url('imagenes/escudos/costa_de_marfil.jpg');
+}
+li.escudos a img.costa_rica{
+	content:url('imagenes/escudos/costa_rica.jpg');
+    height: 35px;
+}
+li.escudos a img.croacia{
+	content:url('imagenes/escudos/croacia.jpg');
+    width: 30px 
+}
+
+li.escudos a img.ecuador{
+	content:url('imagenes/escudos/ecuador.jpg');
+}
+li.escudos a img.espania{
+	content:url('imagenes/escudos/espania.jpg');
+        width: 30px
+}
+li.escudos a img.francia{
+	content:url('imagenes/escudos/francia.jpg');
+    width: 31px
+}
+li.escudos a img.ghana{
+	content:url('imagenes/escudos/ghana.jpg');
+          width: 29px
+}
+li.escudos a img.grecia{
+	content:url('imagenes/escudos/grecia.jpg');
+          
+}
+li.escudos a img.holanda{
+	content:url('imagenes/escudos/holanda.jpg');
+          padding:10 0 0 0;
+          height: 25px;
+}
+li.escudos a img.honduras{   
+	content:url('imagenes/escudos/honduras.jpg');
+          width: 38px
+}
+li.escudos a img.inglaterra{   
+	content:url('imagenes/escudos/inglaterra.jpg');
+         width: 30px
+}
+li.escudos a img.iran{   
+	content:url('imagenes/escudos/iran.jpg');
+         width: 24px
+}
+li.escudos a img.italia{   
+	content:url('imagenes/escudos/italia.jpg');
+        width: 28px
+}
+li.escudos a img.japon{   
+	content:url('imagenes/escudos/japon.jpg');
+         
+}
+li.escudos a img.mexico{   
+	content:url('imagenes/escudos/mexico.jpg');
+         
+}
+li.escudos a img.nigeria{   
+	content:url('imagenes/escudos/nigeria.jpg');
+         width: 38px
+}
+li.escudos a img.portugal{   
+	content:url('imagenes/escudos/portugal.jpg');
+         width: 29px
+}
+li.escudos a img.rusia{   
+	content:url('imagenes/escudos/rusia.jpg');
+}
+li.escudos a img.suiza{   
+	content:url('imagenes/escudos/suiza.jpg');
+         padding:8 0 0 0;
+         height: 30px;
+         
+}
+li.escudos a img.uruguay{   
+	content:url('imagenes/escudos/uruguay.jpg');
+        width: 33px
+}
+li.escudos a img.usa{   
+	content:url('imagenes/escudos/usa.jpg');
+        width: 33px
+}
+*/----------------------menu-------------------*/
+#contmenu{
+	height:50px;
+	widht:940
+}
+a.menu
+{ 
+	font-family: 'Allerta', sans-serif;
+	color:white;
+	background-color:black;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-size:20;
+	margin-left:-2px; 
+	padding: 3px
+}
+a.menu:hover
+{
+	color:grey
+}
+.negrita
+{
+	font-family: 'Allerta', sans-serif;
+	font-weight: bold;
+	text-transform:capitalize;
+	font-size:20;
+	color:black
+}
+
+*/----------------------cuerpo-----------------*/
+#cuerpo{
+	background-color:red;
+	width:940;
+	height:1020
+}
+table{
+	background-color:#F1F4F6
+}
+
+.cabezaltabla{
+	background-color:#2C74C2
+}
+
+.lineatablapar{
+	background-color:#C7E8F7
+}
+
+.irarriba{
+	/*background-image:url('imagenes/irarriba.png');
+	background-repeat:no-repeat;
+	background-position: center;*/
+	background: url('imagenes/irarriba.png') no-repeat center;
+	height: 50px;
+}
+
+#cont_nombanescfot{
+	border:1px solid #A9BDD2;
+	background-color:transparent;
+	 
+	float:left
+}
+
+#cont_nom{	
+	font-family:'Roboto Condensed', 'sans-serif'; 
+	font-size:40; 
+	text-align:center;
+	padding-top:20;
+	text-transform:uppercase
+}
+
+#cont_banescfot{
+	float:left;
+	background-color:transparent;
+	/*border:2px solid black;*/
+	margin: 15;
+	/*height: 120*/
+	width:300;
+	
+}
+
+#cont_banescfot div{
+	float:left;
+	margin: 5;		
+	height:120;
+}
+
+#banale{	
+	content:url('imagenes/banderas/alemania.png');
+}
+
+#escale{	
+	content:url('imagenes/escudos/alemania.jpg');
+}
+
+#fotale{
+	padding:10 0 0 45;
+	height:140;
+	content:url('imagenes/selecciones/alemania.jpg');
+}
+
+p{
+	color:#336633;
+	background-color:red;
+	font:30px arial,sans-serif;
+}
+a{
+	font-family:Monaco,Georgia,Times,serif;
+	color:red;
+}
+#slider{
+	margin:0 240
+}

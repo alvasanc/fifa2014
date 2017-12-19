@@ -1,0 +1,236 @@
+*{margin:0px; padding:0px}
+
+body{
+	background-image:url('imagenes/fondonegro.jpg');
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+#mainwrapper{
+	width:940px;
+	height:6500px;
+	background-color:white;
+	margin:auto;
+}
+*/---------------------cabezal------------------*/
+#cabezal{
+	//width:940px;
+	//height:1;
+}
+#titulo{
+	text-align:center;
+	height:50;
+	color: #007DC3;
+	background-color: #004173
+}
+
+#divescudos{
+	padding:10; 
+	height:40;
+	margin-right:10%
+}
+
+*/---------------------cuerpo------------------*/
+#cuerpo{
+	clear:both;
+	width:940;
+	
+	
+}
+
+#contslider{
+	height:500;	
+	padding-left:240px;	
+	z-index:-1;
+}
+
+#slider{
+	height:355;
+	width:940;		
+}
+
+#notgrupoizq{
+	width:300;
+	height:1200;	
+	float:left	
+}
+
+#notgrupomedio{
+	width:300;
+	height:1200;
+	margin-left:20px;
+	float:left	
+}
+
+#notgrupoder{
+	width:300;
+	height:1200;
+	margin-left:20px;
+	float:left
+}
+
+.ngrupo{
+	margin-top: 10px;
+	width:300;	
+	border-bottom: 1px solid blue;	
+}
+
+#titulonoticia{
+	width:300px;
+	color: #999999;
+	text-align:center;
+}
+
+#comentario{
+	width:270;	
+	padding-left:5px;
+	margin-bottom:10px
+}
+
+#fotonoticiacont{
+	width:300;	
+	text-align:center;
+}
+
+#destacado{
+	width:300;	
+	font-size: 20px;
+	color: blue;
+	padding-left:5px
+}
+
+#datosgrupo{	
+	height:40;
+	background-color:#999999;
+	width:940;
+	position:relative;
+}
+#nomgrupo{
+	position: absolute;
+	top: 5px;
+	left: 40px;
+	font-size:25;
+	color: black;
+}
+
+#banderasgrupo{
+	position: absolute;
+	top: 5px;
+	right: 40px;
+	font-size:25;
+	color: #009999;
+}
+
+#partidosgrupo{
+	width:940px;
+	margin:10 0;
+}
+
+.caption {
+	font-size: 150%;
+	//font-weight: bold;
+	margin: 15px 5;
+	color: #999999;
+	border-bottom:1px solid #999999;
+	display:block
+}
+/*----------------fasef-----------------------*/
+#pffinal{
+	width:940
+}
+#pffizq{
+	width:470;
+	float:left
+}
+#pffder{
+	width:470;
+	float:left
+}
+#partff{
+	width:470;
+	height:135;
+	border: 1px solid #555
+}
+#info{
+	width:470;
+	height:40;
+	text-align:center;
+	font-size:17px
+}
+#contequiclas{
+	width:470;
+	height:100
+
+}
+#contequipos{
+	float:left
+}
+#equipos{
+	width:235px;
+	height:50px;
+	font-size:25;
+	border-right:5px solid black;
+}
+#equipos{
+	width:235px;
+	height:50px;
+	font-size:25;
+	border-right:5px solid black;
+	
+}
+#imaequi{
+	float:left;
+	width:190;
+	
+	
+}
+#imaequidos{
+	float:left;
+	width:190;
+	margin-bottom:0	
+	
+}
+#gol{
+	height:30px;
+	width:30;
+	float:right;
+	border:1px solid black;
+	text-align:center;
+	margin-right:2
+}
+#goldos{
+	height:30px;
+	width:30;
+	float:right;
+	border:1px solid black;
+	text-align:center;
+	margin-right:2;
+	margin-bottom:0
+}
+
+#divsep{
+	width:20;
+	float:left;
+	height:50;
+	border-bottom: 5px solid black;
+}
+#contvaclas{
+	width:200;
+	float:right
+}
+#vacio{
+	visibility:hidden;
+	height:25px;
+	}
+#clasificado{
+	height:50px;
+	font-size:25;
+	margin-top:10
+	
+}
+#contador{
+	text-align:center
+}	
+/*----------------------pie------------------*/
+#pie{
+	width:940;
+	height:120
+}

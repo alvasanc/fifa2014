@@ -1,0 +1,305 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="estilos/miestilo2.css">
+		<link rel="stylesheet" type="text/css" href="estilos/menu.css">
+		<link rel="stylesheet" type="text/css" href="estilos/escudos.css">
+		
+		<title>
+			 Mundial 2014 - Inicio
+		</title>
+		<!-- First, add jQuery (and jQuery UI if using custom easing or animation -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+
+        <!-- Second, add the Timer and Easing plugins -->
+        <script type="text/javascript" src="slider/js/jquery.timers-1.2.js"></script>
+        <script type="text/javascript" src="slider/js/jquery.easing.1.3.js"></script>
+
+        <!-- Third, add the GalleryView Javascript and CSS files -->
+        <script type="text/javascript" src="slider/js/jquery.galleryview-3.0-dev.js"></script>
+        <link type="text/css" rel="stylesheet" href="slider/css/jquery.galleryview-3.0-dev.css" />
+
+        <!-- Lastly, call the galleryView() function on your unordered list(s) -->
+		<script type="text/javascript">
+		$(function(){
+		$('#myGallery').galleryView({
+		transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
+		transition_interval: 1000, 		//INT - delay between panel/frame transitions (in milliseconds)
+		easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
+		show_panels: true, 				// siempre TRUE!!!! //BOOLEAN - flag to show or hide panel portion of gallery
+		//show_panel_nav: false, 			//BOOLEAN - flag to show or hide panel navigation buttons
+		enable_overlays: false, 			//BOOLEAN - flag to show or hide panel overlays
+
+		panel_width: 460, 				//INT - width of gallery panel (in pixels)
+		panel_height: 300, 				//INT - height of gallery panel (in pixels)
+		panel_animation: 'slide', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
+		panel_scale: 'crop', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
+		overlay_position: 'top', 	//STRING - position of panel overlay (bottom, top)
+		pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
+		pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
+		//pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
+		start_frame: 5, 				//INT - index of panel/frame to show first when gallery loads
+		show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
+		show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
+		enable_slideshow: true,			//BOOLEAN - flag indicating whether to display slideshow play/pause button
+		autoplay: true,				//BOOLEAN - flag to start slideshow on gallery load
+		show_captions: false, 			//BOOLEAN - flag to show or hide frame captions
+		//filmstrip_size: 2, 				//INT - number of frames to show in filmstrip-only gallery
+		filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
+		filmstrip_position: 'top', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
+		frame_width: 80, 				//INT - width of filmstrip frames (in pixels)
+		frame_height: 40, 				//INT - width of filmstrip frames (in pixels)
+		frame_opacity: 0.5, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
+		frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
+		frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
+		show_infobar: false,				//BOOLEAN - flag to show or hide infobar
+		infobar_opacity: 0.5				//FLOAT - transparency for info bar
+		});
+		});
+		</script>
+	</head>
+	<body>
+		<div id="mainwrapper">
+	<!-----------------------------------cabezal---------------------------------------------->	
+			<!--div id="cabezal"-->
+				<div id="titulo">
+					<h1>Mundial FIFA - BRASIL 2014</h1>		
+				</div>
+				<div id="divescudos">	
+					<ul style="list-style:none; float:right; margin-top:0;margin-left: -10; margin-right: 60">
+						<li class="escudos" style="margin-left:3px"><a title="Alemania" href="pag_selecciones/alemania.html"><img class="alemania"></a></li>
+						<li class="escudos" style="margin-left:-8px"><a title="Argelia" href="pag_selecciones/argelia.html"><img class="argelia"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Argentina" href="pag_selecciones/argentina.html"><img class="argentina"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Australia" href="pag_selecciones/australia.html"><img class="australia"></a></li>
+						<li class="escudos" style="margin-left:-8px"><a title="Belgica" href="pag_selecciones/belgica.html"><img class="belgica"></a></li>
+						<li class="escudos" style="margin-left:-3px"><a title="Bosnia" href="pag_selecciones/bosnia.html"><img class="bosnia"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Brasil" href="pag_selecciones/brasil.html"><img class="brasil"></a></li>
+						<li class="escudos" style="margin-left:-3px"><a title="Camerun" href="pag_selecciones/camerun.html"><img class="camerun"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Chile" href="pag_selecciones/chile.html"><img class="chile"></a></li>
+						<li class="escudos" style="margin-left:0px"><a title="Colombia" href="pag_selecciones/colombia.html"><img class="colombia"></a></li>
+						<li class="escudos" style="margin-left:0px"><a title="Corea" href="pag_selecciones/corea.html"><img class="corea"></a></li>
+						<li class="escudos" style="margin-left:-3px"><a title="Costa de Marfil" href="pag_selecciones/costa_de_marfil.html"><img class="costa_de_marfil"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Costa Rica" href="pag_selecciones/costa_rica.html"><img class="costa_rica"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Croacia" href="pag_selecciones/croacia.html"><img class="croacia"></a></li>
+						<li class="escudos" style="margin-left:-6px"><a title="Ecuador" href="pag_selecciones/ecuador.html"><img class="ecuador"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Espa&ntilde;a" href="pag_selecciones/espania.html"><img class="espania"></a></li>
+					</ul>	
+				</div>
+				<div id="divescudos">
+					<ul style="list-style:none; float:right; margin-top:0;margin-left: -10; margin-right: 60">
+						<li class="escudos" style="margin-left:-6px"><a title="Francia" href="pag_selecciones/francia.html"><img class="francia"></a></li>
+						<li class="escudos" style="margin-left:-6px"><a title="Ghana" href="pag_selecciones/ghana.html"><img class="ghana"></a></li>
+						<li class="escudos" style="margin-left:-6px"><a title="Grecia" href="pag_selecciones/grecia.html"><img class="grecia"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Holanda" href="pag_selecciones/holanda.html"><img class="holanda"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Honduras" href="pag_selecciones/honduras.html"><img class="honduras"></a></li>
+						<li class="escudos"style="margin-left:3px"><a title="Inglaterra" href="pag_selecciones/inglaterra.html"><img class="inglaterra"></a></li>
+						<li class="escudos" style="margin-left:-6px"><a title="Iran" href="pag_selecciones/iran.html"><img class="iran"></a></li>
+						<li class="escudos" style="margin-left:-11px"><a title="Italia" href="pag_selecciones/italia.html"><img class="italia"></a></li>
+						<li class="escudos" style="margin-left:-8px"><a title="Japon" href="pag_selecciones/japon.html"><img class="japon"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Mexico" href="pag_selecciones/mexico.html"><img class="mexico"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Nigeria" href="pag_selecciones/nigeria.html"><img class="nigeria"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Portugal" href="pag_selecciones/portugal.html"><img class="portugal"></a></li>
+						<li class="escudos" style="margin-left:-6px"><a title="Rusia" href="pag_selecciones/rusia.html"><img class="rusia"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Suiza" href="pag_selecciones/suiza.html"><img class="suiza"></a></li>
+						<li class="escudos" style="margin-left:3px"><a title="Uruguay" href="pag_selecciones/uruguay.html"><img class="uruguay"></a></li>
+						<li class="escudos" style="margin-left:-3px"><a title="U S A" href="pag_selecciones/usa.html"><img class="usa"></a></li>
+					</ul>
+				</div>
+				<div id="contmenu">
+					<div id="menu">
+						<ul class="nav">
+							<li><a>Inicio</a></li>
+							<li><a>Grupos</a>
+							<ul>
+								<li><a href="pag_grupos/grupo_a.html">Grupo A</a></li>
+								<li><a href="pag_grupos/grupo_b.html">Grupo B</a></li>
+								<li><a href="pag_grupos/grupo_c.html">Grupo C</a></li>
+								<li><a href="pag_grupos/grupo_d.html">Grupo D</a></li>						
+								<li><a href="pag_grupos/grupo_e.html">Grupo E</a></li>
+								<li><a href="pag_grupos/grupo_f.html">Grupo F</a></li>
+								<li><a href="pag_grupos/grupo_g.html">Grupo G</a></li>
+								<li><a href="pag_grupos/grupo_h.html">Grupo H</a></li>						
+							</ul>
+							</li>
+							<li><a href="fasefinal.html">Fase Final</a></li>
+							<li><a href="sedes.html">Sedes</a></li>						
+							<li><a href="predictor.html">Predictor</a></li>						
+						</ul>
+					</div>
+				</div>		
+			<!--/div-->
+		<!--------------------------------------cuerpo--------------------------------------------->	
+			<div id="cuerpo">
+                	<div id="slider">
+					<div id="contslider">
+						<ul id="myGallery">
+							<li><img data-frame="slider/fotos/1.jpg" src="slider/fotos/1.jpg" title="Afiche copa Mundial 2014" data-description="Campeonato Mundial Brasil 2014" />
+							<li><img data-frame="slider/fotos/2.jpg" src="slider/fotos/2.jpg" title="brasil-croacia" data-description="Copa fifa" />
+							<li><img data-frame="slider/fotos/3.jpg" src="slider/fotos/3.jpg" title="Costa de Marfil-japon" />
+							<li><img data-frame="slider/fotos/4.jpg" src="slider/fotos/4.jpg" title="italia-inglaterra"/>
+							<li><img data-frame="slider/fotos/5.jpg" src="slider/fotos/5.jpg" title="fuleco"/>
+							<li><img data-frame="slider/fotos/6.jpg" src="slider/fotos/6.jpg" title="pelota"/>
+							<li><img data-frame="slider/fotos/7.jpg" src="slider/fotos/7.jpg" title="Copa fifa"/>
+							<li><img data-frame="slider/fotos/8.jpg" src="slider/fotos/8.jpg" title="brasil-2014"/>
+							<li><img data-frame="slider/fotos/9.jpg" src="slider/fotos/9.jpg" title="ecuador-suiza"/>
+							<li><img data-frame="slider/fotos/10.jpg" src="slider/fotos/10.jpg" title="uruguay-costa rica"/>
+							<li><img data-frame="slider/fotos/11.jpg" src="slider/fotos/11.jpg" title="campeon mundial"/>
+							<li><img data-frame="slider/fotos/12.jpg" src="slider/fotos/12.jpg" title="ceremonia inaugural"/>
+							<li><img data-frame="slider/fotos/13.jpg" src="slider/fotos/13.jpg" title="ceremonia inaugural2"/>	
+							<li><img data-frame="slider/fotos/14.jpg" src="slider/fotos/14.jpg" title="mexico-camerun"/>
+							<li><img data-frame="slider/fotos/15.jpg" src="slider/fotos/15.jpg" title="españa-holanda"/>
+							<li><img data-frame="slider/fotos/16.jpg" src="slider/fotos/16.jpg" title="chile-australia"/>
+							<li><img data-frame="slider/fotos/17.jpg" src="slider/fotos/17.jpg" title="colombia-grecia"/>
+							<li><img data-frame="slider/fotos/18.jpg" src="slider/fotos/18.jpg" title="francia-honduras"/>
+							<li><img data-frame="slider/fotos/19.jpg" src="slider/fotos/19.jpg" title="argentina-bosnia"/>
+							<li><img data-frame="slider/fotos/20.jpg" src="slider/fotos/20.jpg" title="alemania-portugal"/>
+							<li><img data-frame="slider/fotos/21.jpg" src="slider/fotos/21.jpg" title="iran-nigeria"/>
+							<li><img data-frame="slider/fotos/22.jpg" src="slider/fotos/22.jpg" title="usa-ghana"/>
+							<li><img data-frame="slider/fotos/23.jpg" src="slider/fotos/23.jpg" title="belgica-argelia"/>
+							<li><img data-frame="slider/fotos/24.jpg" src="slider/fotos/24.jpg" title="brasil-mexico"/>
+							<li><img data-frame="slider/fotos/25.jpg" src="slider/fotos/25.jpg" title="rusia-corea"/>
+							<li><img data-frame="slider/fotos/26.jpg" src="slider/fotos/26.jpg" title="holanda-australia"/>
+							<li><img data-frame="slider/fotos/27.jpg" src="slider/fotos/27.jpg" title="chile-espania"/>
+							<li><img data-frame="slider/fotos/28.jpg" src="slider/fotos/28.jpg" title="camerun-croacia"/>
+							<li><img data-frame="slider/fotos/29.jpg" src="slider/fotos/29.jpg" title="colombia-costa de marfil"/>
+							<li><img data-frame="slider/fotos/30.jpg" src="slider/fotos/30.jpg" title="uruguay-inglaterra"/>
+							<li><img data-frame="slider/fotos/31.jpg" src="slider/fotos/31.jpg" title="japon-grecia"/>
+							<li><img data-frame="slider/fotos/32.jpg" src="slider/fotos/32.jpg" title="italia-costa rica"/>
+							<li><img data-frame="slider/fotos/33.jpg" src="slider/fotos/33.jpg" title="francia-suiza"/>
+							<li><img data-frame="slider/fotos/34.jpg" src="slider/fotos/34.jpg" title="honduras-ecuador"/>
+							<li><img data-frame="slider/fotos/35.jpg" src="slider/fotos/35.jpg" title="argentina-iran"/>
+							<li><img data-frame="slider/fotos/36.jpg" src="slider/fotos/36.jpg" title="alemania-ghana"/>
+							<li><img data-frame="slider/fotos/37.jpg" src="slider/fotos/37.jpg" title="nigeria-bosnia"/>
+							<li><img data-frame="slider/fotos/38.jpg" src="slider/fotos/38.jpg" title="belgica-rusia"/>
+							<li><img data-frame="slider/fotos/39.jpg" src="slider/fotos/39.jpg" title="argelia-corea"/>
+							<li><img data-frame="slider/fotos/40.jpg" src="slider/fotos/40.jpg" title="portugal-usa"/>
+							<li><img data-frame="slider/fotos/41.jpg" src="slider/fotos/41.jpg" title="holanda-chile"/>
+							<li><img data-frame="slider/fotos/42.jpg" src="slider/fotos/42.jpg" title="españa-australia"/>
+							<li><img data-frame="slider/fotos/43.jpg" src="slider/fotos/43.jpg" title="brasil-camerun"/>
+							<li><img data-frame="slider/fotos/44.jpg" src="slider/fotos/44.jpg" title="mexico-croacia"/>
+							<li><img data-frame="slider/fotos/45.jpg" src="slider/fotos/45.jpg" title="uruguay-italia"/>
+							<li><img data-frame="slider/fotos/46.jpg" src="slider/fotos/46.jpg" title="costarica-inglaterra"/>
+							<li><img data-frame="slider/fotos/47.jpg" src="slider/fotos/47.jpg" title="costademarfil-grecia"/>
+							<li><img data-frame="slider/fotos/48.jpg" src="slider/fotos/48.jpg" title="colombia-japon"/>
+						    <li><img data-frame="slider/fotos/49.jpg" src="slider/fotos/49.jpg" title="argentina-nigeria"/>
+							<li><img data-frame="slider/fotos/50.jpg" src="slider/fotos/50.jpg" title="iran-bosnia"/>
+							<li><img data-frame="slider/fotos/51.jpg" src="slider/fotos/51.jpg" title="francia-ecuador"/>
+							<li><img data-frame="slider/fotos/52.jpg" src="slider/fotos/52.jpg" title="suiza-honduras"/>
+							<li><img data-frame="slider/fotos/53.jpg" src="slider/fotos/53.jpg" title="alemania-usa"/>
+							<li><img data-frame="slider/fotos/54.jpg" src="slider/fotos/54.jpg" title="ghana-portugal"/>
+							<li><img data-frame="slider/fotos/55.jpg" src="slider/fotos/55.jpg" title="belgica-corea"/>
+							<li><img data-frame="slider/fotos/56.jpg" src="slider/fotos/56.jpg" title="rusia-argelia"/>
+							<li><img data-frame="slider/fotos/57.jpg" src="slider/fotos/57.jpg" title="brasil-chile"/>
+							<li><img data-frame="slider/fotos/58.jpg" src="slider/fotos/58.jpg" title="colombia-uruguay"/>
+							<li><img data-frame="slider/fotos/59.jpg" src="slider/fotos/59.jpg" title="holanda-mexico"/>
+							<li><img data-frame="slider/fotos/60.jpg" src="slider/fotos/60.jpg" title="costarica-grecia"/>
+							<li><img data-frame="slider/fotos/61.jpg" src="slider/fotos/61.jpg" title="francia-nigeria"/>
+							<li><img data-frame="slider/fotos/62.jpg" src="slider/fotos/62.jpg" title="alemania-argelia"/>
+							<li><img data-frame="slider/fotos/63.jpg" src="slider/fotos/63.jpg" title="argentina-suiza"/>
+							<li><img data-frame="slider/fotos/64.jpg" src="slider/fotos/64.jpg" title="belgica-usa"/>
+							<li><img data-frame="slider/fotos/65.jpg" src="slider/fotos/65.jpg" title="francia-alemania"/>
+							<li><img data-frame="slider/fotos/66.jpg" src="slider/fotos/66.jpg" title="brasil-colombia"/>
+							<li><img data-frame="slider/fotos/67.jpg" src="slider/fotos/67.jpg" title="argentina-belgica"/>
+							<li><img data-frame="slider/fotos/68.jpg" src="slider/fotos/68.jpg" title="holanda-costarica"/>
+							<li><img data-frame="slider/fotos/69.jpg" src="slider/fotos/69.jpg" title="brasil-alemania"/>
+							<li><img data-frame="slider/fotos/70.jpg" src="slider/fotos/70.jpg" title="argentina-holanda"/>
+							<li><img data-frame="slider/fotos/71.jpg" src="slider/fotos/71.jpg" title="brasil-holanda"/>
+							<li><img data-frame="slider/fotos/72.jpg" src="slider/fotos/72.jpg" title="ceremonia clausura"/>
+							<li><img data-frame="slider/fotos/73.jpg" src="slider/fotos/73.jpg" title="ceremonia clausura"/>
+							<li><img data-frame="slider/fotos/74.jpg" src="slider/fotos/74.jpg" title="argentina-alemania"/>
+							<li><img data-frame="slider/fotos/75.jpg" src="slider/fotos/75.jpg" title="balon y guante de oro"/>
+					</ul>	
+					</div>								
+				</div>				
+				<div id="notgrupoizq">
+					<div class="ngrupo">
+						<div id="titulonoticia">
+							NOTICIA	
+						</div>
+						<div id="fotonoticiacont">
+							<img src="imagenes/otras/8.jpg" >
+						</div>	
+						<div id="destacado">
+							Ganó Holanda a Brasil 3 a 0    
+						</div>						  
+						<div id="comentario">
+							Ganó Holanda a Brasil 3 a 0  con goles de Van Persie a los 3m. de penal, de Daley Blind  a los 16m. y  Giorginio Wijnaldum a los 90m. y consiguió el tercer lugar  		
+						</div>
+					</div>
+					<div class="ngrupo">
+						<div id="titulonoticia">
+							NOTICIA
+						</div>
+						<div id="fotonoticiacont">
+							<img src="imagenes/otras/7.jpg" >
+						</div>
+						<div id="destacado">
+							Argentina finalista ganó 4 a 2 por penales   
+						</div>						
+						<div id="comentario">
+							Argentina finalista luego de 24 años ganó a Holanda por penales en los 120m.  empataron 0 a 0 en un partido muy parejo  
+						</div>						
+					</div>
+					
+					
+				</div>
+				<div id="notgrupomedio">
+					<div class="ngrupo">
+						<div id="titulonoticia">
+							NOTICIA
+						</div>
+						<div id="fotonoticiacont">
+							<img src="imagenes/otras/6.jpg">
+						</div>
+						<div id="destacado">
+							Alemania ganó 1 a 0 y es Campeón Mundial    
+						</div>						
+						<div id="comentario">
+							Alemania ganó 1 a 0 en el minuto 113 con gol de Mario Gotze y es Campeón Mundial	
+						</div>						
+					</div>
+					<div class="ngrupo">
+						<div id="titulonoticia">
+							NOTICIA
+						</div>
+						<div id="fotonoticiacont">
+							<img src="imagenes/otras/9.jpg">
+						</div>
+						<div id="destacado">
+							Alemania finalista,una aplanadora goleó a Brasil 7 a 1   
+						</div>						
+						<div id="comentario">
+							Alemania clasificó para la final y goleó a Brasil 7 a 1 con goles de Thomas Muller a los 11m.,Miroslav klose a los 23m.,Toni Kross a los 24 y 26m. Sami Khedira a los 29m.
+							y Andre Schurrle a los 69 y 79m, descontó a los 90m.Oscar.   		
+						 </div>						
+					</div>
+					
+				</div>
+				<div id="notgrupoder">
+					<div class="ngrupo">
+						<div id="fotonoticiacont">
+							<a href="http://www.penk.com.uy"><img src="imagenes/otras/penka.png" ></a>
+						</div>
+						<div id="titulonoticia">
+							FOTOS
+						</div>
+						<div id="fotonoticiacont">
+							<img src="imagenes/otras/5.jpg" >
+							<img src="imagenes/otras/1.jpg" >
+							<img src="imagenes/otras/3.jpg" >
+							<img src="imagenes/otras/4.jpg" >
+							<img src="imagenes/otras/2.jpg" >							
+						</div>								
+					</div>
+					<div id="contador">
+						<!-- http://contadores.miarroba.es  -->
+						<script type="text/javascript" src="http://contadores.miarroba.es/ver.php?id=676136"></script>
+						<!-- http://contadores.miarroba.es  -->
+					</div>
+					
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>

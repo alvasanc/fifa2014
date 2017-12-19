@@ -1,0 +1,48 @@
+.camisetas { 
+	background-image: url(camisetas.jpg); 
+        width: 70px; 
+        height: 74px;
+} 
+/*es importante escribir los nombres sin espacios .plantel .uno no funciona*/
+.camisetas.uno {background-position: 6px -0px;} 
+.camisetas.dos {background-position: -85px -0px;}
+.camisetas.tres {background-position: -178px -0px;}		
+.camisetas.cuatro {background-position: -266px -0px;}		
+.camisetas.cinco {background-position: -360px -1px;}		
+.camisetas.seis {background-position: -454px -1px;} 
+.camisetas.siete {background-position: -542px -1px;} 		
+.camisetas.ocho {background-position: -1333px -0px;} 		
+.camisetas.nueve {background-position: 4px -70px;}
+.camisetas.diez {background-position: -87px -71px;}
+.camisetas.once {background-position: -181px -72px;} 
+.camisetas.doce {background-position: -268px -72px;} 
+.camisetas.trece {background-position: -362px -72px;} 
+.camisetas.catorce {background-position: -456px -72px;}
+.camisetas.quince {background-position: -1242px -973px;} 
+.camisetas.diesciseis {background-position: -1333px -74px;}
+.camisetas.diecisiete {background-position: 4px -147px;}
+.camisetas.dieciocho {background-position: -89px -147px;}
+.camisetas.diecinueve {background-position: -182px -148px;}
+.camisetas.veinte {background-position: -268px -145px;}
+.camisetas.veintiuno {background-position: -360px -146px;}
+.camisetas.veintidos {background-position: -453px -145px;}
+.camisetas.veintitres {background-position: -1244px -745px;} 
+.camisetas.veinticuatro {background-position: -1334px -745px;} 
+.camisetas.veinticinco {background-position: 4px -223px;}
+.camisetas.veintiseis {background-position: -84px -223px;}
+.camisetas.veintisiete {background-position: -182px -223px;}
+.camisetas.veintiocho {background-position: -967px -822px;}
+.camisetas.veintinueve {background-position: -1060px -822px;}
+.camisetas.treinta {background-position: -1152px -821px;}
+.camisetas.treintaiuno {background-position: -1244px -824px;}
+.camisetas.treintaidos {background-position: -1333px -820px;}
+#camisetas{
+	height:100px;
+	margin:auto;
+	width:200;
+	text-align:center;
+	padding:5px;
+	background-color:#E6EDF5
+} 
+        
+		
